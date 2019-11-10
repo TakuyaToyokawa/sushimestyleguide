@@ -34,6 +34,88 @@ body{
   background-color: #EEEEEE;
 }
 
+/*Heading*/
+h1, h2, h3, h4, h5, h6, .bodytext{
+  margin: 0px;
+}
+
+h1{
+ font-size: 2.5em;
+ font-family: 'Montserrat', sans-serif;
+ color: #23423f;
+ line-height: 1.4em;
+}
+
+h1 + .subheading{
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h2{
+  font-size: 2em;
+  color: #23423f;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3em;
+}
+
+h2 + .subheading{
+  font-size: 1.6em;
+  margin-bottom: 1em;
+}
+
+h3{
+  font-size: 1.625em;
+  color: #23423f;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.3em;
+}
+
+h3 + .subheading{
+  font-size: 1.425em;
+  margin-bottom: 1em;
+}
+
+h4{
+  font-size: 1.375em;
+  color: #23423f;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.25em;
+}
+
+h4 + .subheading{
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+h5{
+  font-size: 1.125em;
+  color: #23423f;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1em;
+}
+
+h5 + .subheading{
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+h6{
+  font-size: 1em;
+  color: #23423f;
+  font-family: 'Montserrat', sans-serif;
+  line-height: .9em;
+}
+
+h6 + .subheading{
+  font-size: .9em;
+  margin-bottom: 1em;
+}
+
+.bodytext + .subheading{
+  font-size: .9em;
+  margin-bottom: 1em;
+}
+
 /*Fonts*/
 
 .pageheading{
@@ -61,6 +143,7 @@ p{
 
 p{
   line-height: 1.42em;
+  color: #23423f;
 }
 
 .pageheading, .heading2, .titleheading{
