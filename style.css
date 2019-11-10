@@ -1,24 +1,41 @@
+@media screen and (max-width: 1024px){
+
+/*Page Layout*/
+
+  .page{
+    flex-direction: column;
+    text-align: center;
+    margin: 1em!important;
+  }
+
+  .rightside{
+    border: 0px solid black!important;
+    margin: 1em!important;
+    padding: 0em!important
+  }
+
+  .leftside{
+    flex: 100%!important;
+    padding: 0em!important;
+    margin: 1em!important;
+  }
+
+  ul li{
+    list-style: none!important;
+  }
+
+  ul{
+    padding: 0em!important;
+  }
+}
+
 body{
   margin: 0px;
   background-color: #EEEEEE;
 }
 
-.sidefixedcolor{
-  float:right;
-  position:fixed;
-  width: 15%;
-  height: 100%;
-  background-color: #DDDDDD;
-}
+/*Fonts*/
 
-p{
-  line-height: 1.42em;
-}
-.pageheading, .heading2, .titleheading{
-  font-family: 'Montserrat';
-  color: #23423f;
-  margin: 0px;
-}
 .pageheading{
   font-size: 6em;
   margin: 0px;
@@ -42,6 +59,32 @@ p{
   font-size: 1em;
 }
 
+p{
+  line-height: 1.42em;
+}
+
+.pageheading, .heading2, .titleheading{
+  font-family: 'Montserrat';
+  color: #23423f;
+  margin: 0px;
+}
+
+.alphabet{
+  font-size: 1.5em;
+}
+
+.subheading{
+  font-size: 2em;
+  margin: 0px;
+  color: #AAAAAA;
+}
+
+#bodytext{
+  font-family: 'Montserrat';
+}
+
+/*Start Page*/
+
 .startpage{
   text-align: center;
   animation-name: fadeInUp;
@@ -63,11 +106,7 @@ p{
   font-weight: bold;
 }
 
-.subheading{
-  font-size: 2em;
-  margin: 0px;
-  color: #AAAAAA;
-}
+/* Page Layout*/
 
 .page{
   margin: 10em;
@@ -75,13 +114,6 @@ p{
   padding-bottom: 10em
 }
 
-.alphabet{
-  font-size: 1.5em;
-}
-
-#bodytext{
-  font-family: 'Montserrat';
-}
 .opacityimage{
   opacity: 0.3;
   margin-top: 30px;
@@ -94,12 +126,6 @@ p{
   flex: 40%;
 }
 
-.headingunderline{
-  border: 3px solid #ef3939;
-  border-radius: 10px;
-  margin-bottom: 1em;
-}
-
 .rightside{
   padding-left: 4em;
   margin-right: 15em;
@@ -107,6 +133,14 @@ p{
   padding-left: 4em;
   flex: 80%;
 }
+
+.headingunderline{
+  border: 3px solid #ef3939;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+/*Color*/
 
 #smallicons{
   display:flex;
@@ -164,42 +198,52 @@ p{
 
 .tuna{
   border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2em;
   background-color: #ef3939;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 .white{
   border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2em;
   background-color: #ffffff;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 .tamago{
   border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2em;
   background-color: #ffe27a;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 .salmon{
   border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2em;
   background-color: #ef6f2b;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 .seaweed{
   border-radius: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: 2em;
   background-color: #23423f;
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
 }
 
 @charset "UTF-8";
