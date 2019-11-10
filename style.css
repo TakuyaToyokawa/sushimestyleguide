@@ -60,9 +60,6 @@ p{
   color: #AAAAAA;
 }
 
-.pagesplit{
-  animation-duration: 1s;
-}
 .page{
   margin: 10em;
   display: flex;
@@ -90,6 +87,8 @@ p{
 
 .headingunderline{
   border: 3px solid #ef3939;
+  border-radius: 10px;
+  margin-bottom: 1em;
 }
 
 .rightside{
@@ -98,6 +97,46 @@ p{
   border-left: 1px solid #000000;
   padding-left: 4em;
   flex: 80%;
+}
+
+#smallicons{
+  display:flex;
+}
+
+#smallicons > .tuna{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
+}
+
+#smallicons > .white{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
+}
+
+#smallicons > .tuna{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
+}
+
+#smallicons > .salmon{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
+}
+
+#smallicons > .tamago{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
+}
+
+#smallicons > .seaweed{
+  margin-top:1em;
+  width: 40px;
+  height: 40px;
 }
 
 .colorrow{
