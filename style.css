@@ -144,6 +144,15 @@ p{
   display: flex;
 }
 
+.colorvariation{
+  border-radius: 50px;
+  width: 150px;
+  height: 3vh;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 5em;
+}
+
 .tuna{
   border-radius: 100px;
   margin-right: 2em;
