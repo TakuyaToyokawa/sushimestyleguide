@@ -422,6 +422,10 @@ p{
   height: 110px;
 }
 
+/*Buttons*/
+#buttons{
+  width: 80%;
+}
 @charset "UTF-8";
 
 /*!
