@@ -11,7 +11,7 @@
   .rightside{
     border: 0px solid black!important;
     margin: 1em!important;
-    padding: 0em!important
+    padding: 0em!important;
   }
 
   .leftside{
@@ -64,10 +64,22 @@
   #buttons{
     width: 80%!important;
   }
+
   .icon{
     width: 12vw!important;
-    padding-left: 3em;
     margin: 0em!important;
+  }
+
+  .iconwrap{
+    margin-right: auto!important;
+    margin-left: auto!important
+  }
+
+  .spacingicon{
+    margin-bottom: 2em;
+    margin-right: 0em!important;
+    margin-right: auto!important;
+    margin-left: auto!important
   }
 
   .iconwrap{
@@ -320,8 +332,8 @@ nav ul{
   display: flex;
   flex-wrap: wrap;
   margin-right: 3em;
-
 }
+
 #logorule{
   width: 70%;
 }
@@ -402,7 +414,7 @@ nav ul{
 }
 
 .colorrow{
-  margin: 1em;
+  margin: 1em 1em 1em 0em;
   display: flex;
 }
 
@@ -465,16 +477,26 @@ nav ul{
   height: 110px;
 }
 /*Iconography*/
+
 .iconwrap{
   display:flex;
   flex-wrap: wrap;
+  padding-bottom: 3em;
+}
+
+.spacingicon{
+  margin-top: 5em;
+  margin-right: 10em;
 }
 
 .icon{
   width: 4vw;
-  margin-right: 10em;
-  margin-bottom: 2em;
 }
+
+.icon + p{
+  text-align: center;
+}
+
 /*Buttons*/
 #buttons{
   width: 80%;
