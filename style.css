@@ -216,23 +216,23 @@ nav{
   position:fixed;
   width:100%;
 }
-ul li{
+nav ul li{
   display: inline;
   margin: 0em 1em;
   font-size: 1em;
 }
 
-ul li a{
+nav ul li a{
   text-decoration: none;
   color: #23423f;
   transition: all ease-in-out 100ms;
 }
 
-ul li a:hover{
+nav ul li a:hover{
   color: #EEEEEE;
 }
 
-ul{
+nav ul{
   text-align: center;
 }
 
