@@ -60,7 +60,15 @@
   .tuna , .salmon, .tamago, .seaweed, .white{
     margin: 0em auto 1em auto!important;
   }
+  .icon{
+    width: 15vw!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
 
+  ul > li{
+    margin-top: 2em!important;
+  }
 
 }
 
@@ -200,6 +208,38 @@ p{
 
 #bodytext{
   font-family: 'Montserrat';
+}
+/*Nav Bar*/
+
+nav{
+  background-color: #FFFFFF;
+  position:fixed;
+  width:100%;
+}
+ul li{
+  display: inline;
+  margin: 0em 1em;
+  font-size: 1em;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #23423f;
+  transition: all ease-in-out 100ms;
+}
+
+ul li::after{
+  content:'';
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+ul li a:hover{
+  color: #EEEEEE;
+}
+
+ul{
+  text-align: center;
 }
 
 /*Start Page*/
@@ -421,7 +461,17 @@ p{
   width: 110px;
   height: 110px;
 }
+/*Iconography*/
+.iconwrap{
+  display:flex;
+  flex-wrap: wrap;
+}
 
+.icon{
+  width: 4vw;
+  margin-right: 10em;
+  margin-bottom: 2em;
+}
 /*Buttons*/
 #buttons{
   width: 80%;
