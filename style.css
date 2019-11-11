@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1400px){
 
 /*Page Layout*/
 
@@ -27,6 +27,16 @@
   ul{
     padding: 0em!important;
   }
+
+  #logorule{
+    margin-left: 2.5em;
+  }
+
+  .logowrap{
+    flex-direction: column;
+    margin-right: 0px!important;
+  }
+
 }
 
 body{
@@ -223,6 +233,47 @@ p{
   border-radius: 10px;
   margin-bottom: 1em;
 }
+/*Logo Rules*/
+
+#centerlogoheading{
+  margin: auto 3em auto 0em;
+}
+
+#logomainruleslayout{
+  display:flex;
+}
+
+.logowrap{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 3em;
+
+}
+#logorule{
+  width: 70%;
+}
+
+.logos{
+  width: 150px;
+  margin: auto 0em auto 0em;
+  margin-bottom: 0px;
+}
+
+.logos + p{
+  text-align: center;
+}
+
+.logoheading{
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+}
+
+.spacinglogo{
+  margin-right: 3em;
+}
+
 /*Imagery*/
 
 .imagerywrap{
@@ -231,7 +282,7 @@ p{
 
 .imagery{
   border-radius: 50px;
-  margin: 1.5em;
+  margin: 3em 2em 2em 0em;
   width: 40%;
 }
 
