@@ -120,7 +120,8 @@ h6 + .subheading{
 
 .pageheading{
   font-size: 6em;
-  margin: 0px;
+  padding-bottom: .3em;
+  line-height: 1em;
   font-family: 'Montserrat';
   font-weight: bold;
 }
@@ -221,6 +222,17 @@ p{
   border: 3px solid #ef3939;
   border-radius: 10px;
   margin-bottom: 1em;
+}
+/*Imagery*/
+
+.imagerywrap{
+  flex-wrap: wrap;
+}
+
+.imagery{
+  border-radius: 50px;
+  margin: 1.5em;
+  width: 40%;
 }
 
 /*Color*/
