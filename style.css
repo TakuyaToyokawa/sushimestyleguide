@@ -32,10 +32,35 @@
     margin-left: 2.5em;
   }
 
+  #logomainruleslayout{
+    flex-direction: column;
+  }
+  #centerlogoheading{
+    margin:0em 0em 1em 0em!important;
+}
+
   .logowrap{
     flex-direction: column;
     margin-right: 0px!important;
   }
+
+  .spacinglogo{
+    margin-bottom: 2em;
+    margin-right: 0em!important;
+  }
+
+  .colorrow{
+    flex-direction: column;
+  }
+
+  .colorvariation{
+    margin: 0em!important;
+  }
+
+  .tuna , .salmon, .tamago, .seaweed, .white{
+    margin: 0em auto 1em auto!important;
+  }
+
 
 }
 
@@ -222,7 +247,7 @@ p{
 
 .rightside{
   padding-left: 4em;
-  margin-right: 15em;
+  margin-right: 8em;
   border-left: 1px solid #000000;
   padding-left: 4em;
   flex: 80%;
@@ -241,6 +266,11 @@ p{
 
 #logomainruleslayout{
   display:flex;
+}
+
+.centervariation{
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .logowrap{
