@@ -280,6 +280,13 @@ nav ul{
   font-weight: bold;
 }
 
+#startpagewebsitelink{
+  text-decoration: none;
+  color: #5500FF;
+  display:inline-block;
+  margin-top: 1em;
+}
+
 /* Page Layout*/
 
 .page{
