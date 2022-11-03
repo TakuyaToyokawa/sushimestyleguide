@@ -1,6 +1,6 @@
 # Sushi Me! Styleguide - BCIT 1st Term, Design Fundamentals Final Project
 
-This project is deployed at the [link here.](https://takuyadev.github.io/sushimestyleguide/)
+This project is deployed at the [link here.](https://takuyadev.github.io/sushime-styleguide/)
 
 ### `Team`
 
